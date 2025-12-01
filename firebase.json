@@ -14,7 +14,7 @@
     ]
   },
   "functions": {
-    (Server Functions)
-    "source": ".next" 
+    "source": ".next", 
+    "runtime": "nodejs20" 
   }
 }
