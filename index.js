@@ -1,5 +1,5 @@
-// هذا هو الكود الذي يجب أن يكون في ملف index.js الجديد (في المجلد الجذري)
-
-const { app } = require('./.next/server/server.js'); // تحديد موقع ملف الخادم الذي أنشأه Next.js
-
-exports.nextApp = app;
+// index.js (في المجلد الجذري)
+const { app } = require('./.next/standalone/server.js');
+// أو إذا كان Next.js يستخدم مسارًا آخر للبناء:
+// const { app } = require('./.next/server/index.js');
+// لكن لنبدأ بالـ Standalone لأنه هو الإعداد الصحيح
