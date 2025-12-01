@@ -1,11 +1,11 @@
-
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "ES2020", // 💡 تحديث الهدف ليتوافق مع أحدث بيئات التشغيل
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "forceConsistentCasingInFileNames": true, // 💡 إضافة قاعدة مهمة لحساسية الأحرف (Case Sensitivity)
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -14,16 +14,23 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".", // 💡 تعيين جذر المشروع كنقطة بداية للمسارات
+    "paths": {
+      "@/components/*": ["components/*"], // تم إضافة هذا لتغطية '@/components/layout/providers'
+      "@/lib/*": ["lib/*"],             // تم إضافة هذا لتغطية '@/lib/utils'
+      "@/*": ["./*"]                      // 💡 مسار عام لتعيين Alias (لتغطية أي شيء في الجذر)
+    },
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "paths": {
-      "@/*": ["./src/*"],
-      "firebase-admin": ["./node_modules/firebase-admin"]
-    }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "functions/index.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }
