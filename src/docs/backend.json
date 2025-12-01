@@ -1,0 +1,602 @@
+
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user in the Ronza4Chat application.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The user's display name."
+        },
+        "avatarUrl": {
+          "type": "string",
+          "description": "URL of the user's avatar image."
+        },
+        "avatarColor": {
+            "type": "string",
+            "description": "The hex color code for the user's avatar icon."
+        },
+        "deviceId": {
+            "type": "string"
+        },
+        "role": {
+          "type": "string",
+          "description": "The user's role (e.g., visitor, special, admin, superadmin)."
+        },
+        "originalRole": {
+            "type": ["string", "null"],
+            "description": "Stores the original role of a user if their role is temporarily stripped."
+        },
+        "isRoleStripped": {
+            "type": "boolean",
+            "description": "Indicates if the user's role has been temporarily stripped by a mythical admin."
+        },
+         "cosmeticRole": {
+          "type": ["string", "null"],
+          "description": "The user's cosmetic rank (e.g., registered_member, background_name, super_name)."
+        },
+        "isMuted": {
+          "type": "boolean"
+        },
+        "isTyping": {
+            "type": "boolean",
+            "description": "Indicates if the user is currently typing a message."
+        },
+        "isCameraOn": {
+          "type": "boolean"
+        },
+        "isSpeaking": {
+          "type": "boolean"
+        },
+        "canSpeakWithOthers": {
+            "type": "boolean",
+            "description": "Allows user to speak even if someone else is on mic."
+        },
+        "handRaised": {
+          "type": "boolean"
+        },
+        "handRaisedAt": {
+          "type": ["number", "null"]
+        },
+        "micTimeStarted": {
+            "type": ["number", "null"],
+            "description": "Timestamp when the user started speaking."
+        },
+        "hasOpenMic": {
+            "type": "boolean",
+            "description": "Indicates if the user has been granted unlimited mic time."
+        },
+        "newPrivateMessageFrom": {
+            "type": "array",
+            "description": "An array of usernames who have sent new private messages.",
+            "items": { "type": "string" }
+        },
+        "status": {
+          "type": ["string", "null"]
+        },
+        "statusText": {
+            "type": ["string", "null"],
+            "description": "A custom status text set by the user."
+        },
+        "lastSeen": {
+            "type": "object",
+            "description": "Firestore server timestamp of when the user was last seen."
+        },
+        "alerts": {
+            "type": "array",
+            "description": "An array of alert messages sent to the user.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "fromName": { "type": "string" },
+                    "text": { "type": "string" },
+                    "timestamp": { "type": "object" }
+                }
+            }
+        },
+        "backgroundUrl": {
+            "type": ["string", "null"]
+        },
+        "dnd": {
+            "type": "boolean",
+            "description": "Do Not Disturb. If true, user will not receive private messages."
+        },
+        "isBot": {
+            "type": "boolean",
+            "description": "Indicates if the user is a bot."
+        },
+        "kickReason": {
+            "type": "string",
+            "description": "Reason for being kicked."
+        }
+      },
+      "required": ["name", "role", "deviceId"]
+    },
+    "ChatRoom": {
+      "title": "ChatRoom",
+      "type": "object",
+      "description": "Represents a chat room in the application.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the chat room."
+        },
+        "description": {
+          "type": "string",
+          "description": "A description of the chat room."
+        },
+        "ownerId": {
+          "type": "string",
+          "description": "The ID of the user or reseller who owns the chat room."
+        },
+        "isPublic": {
+          "type": "boolean",
+          "description": "Indicates whether the chat room is public or private."
+        },
+        "userCount": {
+          "type": "number",
+          "description": "The current number of users in the chat room."
+        },
+        "botCount": {
+            "type": "number",
+            "description": "The desired number of bots in the room."
+        },
+        "cameraOnCount": {
+            "type": "number",
+            "description": "The current number of users with their camera on."
+        },
+        "maxUsers": {
+            "type": "number"
+        },
+        "renewalDate": {
+            "type": "string",
+            "format": "date"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "welcomeMessage": {
+            "type": "string"
+        },
+        "isLocked": {
+            "type": "boolean"
+        },
+        "showJoinLeaveMessages": {
+            "type": "boolean"
+        },
+        "isPrivateChatEnabled": {
+            "type": "boolean"
+        },
+        "muteVisitorsVoice": {
+            "type": "boolean"
+        },
+        "muteVisitorsText": {
+            "type": "boolean"
+        },
+        "heartCount": {
+            "type": "number"
+        },
+        "starCount": {
+            "type": "number"
+        },
+        "heartUsers": {
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "starUsers": {
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "backgroundGradient": {
+            "type": ["string", "null"]
+        },
+        "categories": {
+            "type": "array",
+            "description": "An array of category IDs the room belongs to.",
+            "items": { "type": "string" }
+        },
+        "mic_queue": {
+          "type": "array",
+          "description": "An ordered list of users waiting for the microphone.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "userId": { "type": "string" },
+              "userName": { "type": "string" },
+              "role": { "type": "string" },
+              "handRaisedAt": { "type": "number" }
+            },
+            "required": ["userId", "userName", "role", "handRaisedAt"]
+          }
+        }
+      },
+      "required": [
+        "name",
+        "ownerId",
+        "isPublic"
+      ]
+    },
+    "BannedUser": {
+        "title": "BannedUser",
+        "type": "object",
+        "description": "Represents a user banned from a room.",
+        "properties": {
+            "name": { "type": "string" },
+            "deviceId": { "type": "string" },
+            "reason": { "type": "string" },
+            "bannedBy": { "type": "string" },
+            "bannedAt": { "type": "object" }
+        },
+        "required": ["name", "deviceId", "bannedBy", "bannedAt"]
+    },
+     "GlobalBan": {
+        "title": "GlobalBan",
+        "type": "object",
+        "description": "Represents a user banned from all rooms.",
+        "properties": {
+            "userName": { "type": "string" },
+            "bannedAt": { "type": "object" }
+        },
+        "required": ["userName", "bannedAt"]
+    },
+    "ResellerBan": {
+        "title": "ResellerBan",
+        "type": "object",
+        "description": "Represents a user banned from all rooms of a specific reseller.",
+        "properties": {
+            "userName": { "type": "string" },
+            "bannedAt": { "type": "object" },
+            "reason": { "type": "string" }
+        },
+        "required": ["userName", "bannedAt"]
+    },
+    "RegisteredMember": {
+        "title": "RegisteredMember",
+        "type": "object",
+        "description": "A registered member in a specific chat room.",
+        "properties": {
+            "name": { "type": "string" },
+            "role": { "type": "string", "enum": ["visitor", "special", "admin", "superadmin"] },
+            "color": { "type": "string" },
+            "password": { "type": "string" },
+            "cosmeticRank": {
+                "type": ["string", "null"]
+            }
+        },
+        "required": ["name", "role", "color"]
+    },
+    "Message": {
+      "title": "Message",
+      "type": "object",
+      "description": "Represents a message sent in a chat room.",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "userRole": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "object",
+          "description": "Firestore server timestamp."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["user", "status"]
+        }
+      },
+      "required": [
+        "userId",
+        "userName",
+        "userRole",
+        "text",
+        "timestamp",
+        "type"
+      ]
+    },
+    "PrivateMessage": {
+        "title": "PrivateMessage",
+        "type": "object",
+        "description": "A private message between two users in a room.",
+        "properties": {
+            "fromId": { "type": "string" },
+            "fromName": { "type": "string" },
+            "toId": { "type": "string" },
+            "text": { "type": "string" },
+            "timestamp": { "type": "object" },
+            "read": { "type": "boolean" },
+            "participantIds": {
+                "type": "array",
+                "items": { "type": "string" }
+            }
+        },
+        "required": ["fromId", "toId", "text", "timestamp", "participantIds"]
+    },
+    "ReservedName": {
+      "title": "ReservedName",
+      "type": "object",
+      "description": "Represents a reserved name that cannot be used by users.",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "color": {
+            "type": "string",
+            "description": "The hex color code for the name."
+        },
+        "reseller": {
+            "type": "string",
+            "description": "The ID of the reseller who owns this name."
+        },
+        "renewalDate": {
+            "type": "string",
+            "description": "The date the name reservation expires.",
+            "format": "date"
+        },
+        "password": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string",
+            "enum": ["visitor", "special", "admin", "superadmin"]
+        },
+        "cosmeticRank": {
+            "type": ["string", "null"],
+            "enum": ["registered_member", "background_name", "super_name", "mythical_admin", null]
+        }
+      },
+      "required": [
+        "name",
+        "color",
+        "reseller",
+        "renewalDate"
+      ]
+    },
+    "Reseller": {
+      "title": "Reseller",
+      "type": "object",
+      "description": "Represents a reseller account that can manage chat rooms.",
+      "properties": {
+        "name": {
+            "type": "string"
+        },
+        "userId": {
+          "type": "string"
+        },
+        "apiKey": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "rooms": {
+            "type": "number"
+        },
+        "status": {
+            "type": "string",
+            "enum": ["Active", "Expired"]
+        },
+        "renewalDate": {
+            "type": "string",
+            "format": "date"
+        },
+        "password": {
+            "type": "string",
+            "description": "Password for the reseller panel."
+        }
+      },
+      "required": [
+        "name",
+        "userId",
+        "apiKey",
+        "isActive",
+        "rooms",
+        "status",
+        "renewalDate"
+      ]
+    },
+    "AdminRole": {
+      "title": "Admin Role",
+      "type": "object",
+      "description": "A document in roles_admin collection, existence implies admin role.",
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["createdAt"]
+    },
+    "Post": {
+      "title": "Post",
+      "type": "object",
+      "description": "Represents a post in the Journal.",
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "title_en": { "type": "string" },
+        "content_en": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorAvatarUrl": { "type": "string", "format": "uri" },
+        "timestamp": { "type": "object" },
+        "imageUrl": { "type": "string", "format": "uri" },
+        "likesCount": { "type": "number" },
+        "likedBy": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["title", "content", "authorName", "timestamp"]
+    },
+    "Comment": {
+      "title": "Comment",
+      "type": "object",
+      "description": "Represents a comment on a Journal post.",
+      "properties": {
+        "postId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "text": { "type": "string" },
+        "timestamp": { "type": "object" }
+      },
+      "required": ["postId", "authorName", "text", "timestamp"]
+    },
+    "VisitorLog": {
+        "title": "VisitorLog",
+        "type": "object",
+        "description": "Records a user joining a specific room.",
+        "properties": {
+            "userId": { "type": "string" },
+            "userName": { "type": "string" },
+            "userAvatar": { "type": "string" },
+            "roomId": { "type": "string" },
+            "roomName": { "type": "string" },
+            "ownerId": { "type": "string" },
+            "timestamp": { "type": "object" },
+            "ipAddress": { "type": "string" },
+            "city": { "type": "string" },
+            "country": { "type": "string" }
+        },
+        "required": ["userId", "userName", "roomId", "roomName", "ownerId", "timestamp"]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+     "structure": [
+      {
+        "path": "/global_bans/{userId}",
+        "definition": {
+            "schema": { "$ref": "#/entities/GlobalBan" },
+            "description": "Stores users who are banned from all rooms."
+        }
+      },
+      {
+        "path": "/visitor_logs/{logId}",
+        "definition": {
+            "schema": { "$ref": "#/entities/VisitorLog" },
+            "description": "Stores a log of every user joining any room."
+        }
+      },
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "schema": {
+            "$ref": "#/entities/User"
+          },
+          "description": "Stores user profiles."
+        }
+      },
+      {
+        "path": "/chat_rooms/{chatRoomId}",
+        "definition": {
+          "schema": {
+            "$ref": "#/entities/ChatRoom"
+          },
+          "description": "Stores chat room metadata."
+        }
+      },
+      {
+        "path": "/chat_rooms/{chatRoomId}/messages/{messageId}",
+        "definition": {
+          "schema": {
+            "$ref": "#/entities/Message"
+          },
+          "description": "Stores messages within a chat room."
+        }
+      },
+      {
+        "path": "/chat_rooms/{chatRoomId}/privateMessages/{conversationId}/messages/{messageId}",
+        "definition": {
+            "schema": { "$ref": "#/entities/PrivateMessage" },
+            "description": "Stores private messages for a specific conversation."
+        }
+      },
+       {
+        "path": "/chat_rooms/{chatRoomId}/bannedUsers/{userId}",
+        "definition": {
+            "schema": { "$ref": "#/entities/BannedUser" },
+            "description": "Stores users banned from this specific room."
+        }
+      },
+      {
+        "path": "/chat_rooms/{chatRoomId}/users/{userId}",
+        "definition": {
+            "schema": {
+                "$ref": "#/entities/User"
+            },
+            "description": "Stores users currently in a specific chat room."
+        }
+      },
+      {
+        "path": "/chat_rooms/{chatRoomId}/registeredMembers/{memberId}",
+        "definition": {
+          "schema": { "$ref": "#/entities/RegisteredMember" },
+          "description": "Stores registered members for a specific chat room."
+        }
+      },
+      {
+        "path": "/reserved_names/{reservedNameId}",
+        "definition": {
+          "schema": {
+            "$ref": "#/entities/ReservedName"
+          },
+          "description": "Stores reserved names."
+        }
+      },
+      {
+        "path": "/resellers/{resellerId}",
+        "definition": {
+          "schema": {
+            "$ref": "#/entities/Reseller"
+          },
+          "description": "Stores reseller accounts."
+        }
+      },
+      {
+        "path": "/resellers/{resellerId}/bannedUsers/{userId}",
+        "definition": {
+          "schema": { "$ref": "#/entities/ResellerBan" },
+          "description": "Stores users banned from all rooms of a specific reseller."
+        }
+      },
+      {
+        "path": "/roles_admin/{userId}",
+        "definition": {
+          "schema": {
+            "$ref": "#/entities/AdminRole"
+          },
+          "description": "Documents in this collection denote admin privileges for a user. Existence implies admin role."
+        }
+      },
+      {
+        "path": "/posts/{postId}",
+        "definition": {
+          "schema": { "$ref": "#/entities/Post" },
+          "description": "Stores Journal posts."
+        }
+      },
+      {
+        "path": "/posts/{postId}/comments/{commentId}",
+        "definition": {
+          "schema": { "$ref": "#/entities/Comment" },
+          "description": "Stores comments for a specific post."
+        }
+      }
+    ]
+  }
+}

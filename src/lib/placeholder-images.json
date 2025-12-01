@@ -1,0 +1,136 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "Abstract network connections",
+      "imageUrl": "https://images.unsplash.com/photo-1738082956254-1dd63ad1db71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxuZXR3b3JrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzU5Nzc5MjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "network abstract"
+    },
+    {
+      "id": "avatar-1",
+      "description": "User avatar 1",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3Nzk4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "User avatar 2",
+      "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3Nzk4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "User avatar 3",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3Nzk4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-4",
+      "description": "User avatar 4",
+      "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3Nzk4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-5",
+      "description": "User avatar 5",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3Nzk4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "avatar-6",
+      "description": "User avatar 6",
+      "imageUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3Nzk4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "room-thumb-1",
+      "description": "Community Hangout room thumbnail",
+      "imageUrl": "https://picsum.photos/seed/201/400/300",
+      "imageHint": "lounge cafe"
+    },
+    {
+      "id": "room-thumb-2",
+      "description": "Gaming Lobby room thumbnail",
+      "imageUrl": "https://images.unsplash.com/photo-1632064824547-e77c36851495?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnYW1pbmclMjBzZXR1cHxlbnwwfHx8fDE3NTk3NzIyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming setup"
+    },
+    {
+      "id": "room-thumb-3",
+      "description": "Music Corner room thumbnail",
+      "imageUrl": "https://picsum.photos/seed/203/400/300",
+      "imageHint": "music studio"
+    },
+    {
+      "id": "room-thumb-4",
+      "description": "Tech Talk room thumbnail",
+      "imageUrl": "https://images.unsplash.com/photo-1650600538903-ec09f670c391?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb2RlJTIwc2NyZWVufGVufDB8fHx8MTc1OTc2MTM2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code screen"
+    },
+    {
+      "id": "room-thumb-5",
+      "description": "Art & Design room thumbnail",
+      "imageUrl": "https://images.unsplash.com/photo-1613574714687-c33b9e90200d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhcnQlMjBzdHVkaW98ZW58MHx8fHwxNzU5Nzc2NzQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "art studio"
+    },
+    {
+      "id": "room-thumb-6",
+      "description": "General Chat room thumbnail",
+      "imageUrl": "https://picsum.photos/seed/206/400/300",
+      "imageHint": "city skyline"
+    },
+    {
+      "id": "support-members",
+      "description": "Waves crashing on rocks",
+      "imageUrl": "https://picsum.photos/seed/sup1/600/400",
+      "imageHint": "waves rocks"
+    },
+    {
+      "id": "support-chat-tools",
+      "description": "A train or subway platform.",
+      "imageUrl": "https://picsum.photos/seed/sup2/600/400",
+      "imageHint": "subway platform"
+    },
+    {
+      "id": "support-av",
+      "description": "A window with a curtain.",
+      "imageUrl": "https://picsum.photos/seed/sup3/600/400",
+      "imageHint": "window curtain"
+    },
+    {
+      "id": "support-room-settings",
+      "description": "Orange tulips in a field.",
+      "imageUrl": "https://picsum.photos/seed/sup4/600/400",
+      "imageHint": "orange tulips"
+    },
+    {
+      "id": "support-member-management",
+      "description": "A city skyline.",
+      "imageUrl": "https://picsum.photos/seed/sup5/600/400",
+      "imageHint": "city skyline"
+    },
+    {
+      "id": "support-security",
+      "description": "Pebbles on a beach.",
+      "imageUrl": "https://picsum.photos/seed/sup6/600/400",
+      "imageHint": "beach pebbles"
+    },
+    {
+      "id": "install-mobile",
+      "description": "A foggy landscape with green moss, for mobile installation instructions.",
+      "imageUrl": "https://picsum.photos/seed/ins1/600/400",
+      "imageHint": "foggy landscape"
+    },
+    {
+      "id": "install-desktop",
+      "description": "A foggy mountain scene, for desktop installation instructions.",
+      "imageUrl": "https://picsum.photos/seed/ins2/600/400",
+      "imageHint": "foggy mountain"
+    },
+    {
+      "id": "promo-banner-girl",
+      "description": "A woman with a headset for the promotional banner",
+      "imageUrl": "https://picsum.photos/seed/chatgirl/300/300",
+      "imageHint": "woman headset"
+    }
+  ]
+}
