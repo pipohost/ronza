@@ -14,7 +14,7 @@
     ]
   },
   "functions": {
-    "source": ".next", 
+    "source": ".", 
     "runtime": "nodejs20" 
   }
 }
