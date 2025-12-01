@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1الموقع قيد التحديثات!</h1>;
+  return <h1coming soon</h1>;
 }
