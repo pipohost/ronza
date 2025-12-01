@@ -1,0 +1,1413 @@
+
+{
+  "ar": {
+    "moderation": {
+      "forceMicDrop": "إسقاط الميكروفون",
+      "forceMicDropAll": "إسقاط كل المايكات",
+      "toggleDnd": "عدم الإزعاج",
+      "clearChat": "مسح الدردشة",
+      "toggleRole": "تبديل الدور",
+      "grantOpenMic": "منح وقت مفتوح",
+      "revokeOpenMic": "إلغاء الوقت المفتوح",
+      "sendUserAlert": "إرسال تنبيه للمستخدم",
+      "sendPublicAnnouncement": "إعلان عام للغرفة",
+      "dndEnabledSuccess": "تم تفعيل وضع عدم الإزعاج. لن تستقبل رسائل خاصة.",
+      "dndDisabledSuccess": "تم إلغاء تفعيل وضع عدم الإزعاج.",
+      "userIsDnd": "هذا المستخدم لا يستقبل رسائل خاصة حالياً.",
+      "micDropSuccess": "تم سحب المايك من {user}.",
+      "micDropAllSuccess": "تم سحب المايك من جميع المتحدثين.",
+      "chatClearedSuccess": "تم مسح الدردشة بنجاح.",
+      "roleToggledSuccess": "تم تبديل دور {user} بنجاح.",
+      "openMicGranted": "تم منح وقت مفتوح للمستخدم {user}.",
+      "openMicRevoked": "تم إلغاء الوقت المفتوح للمستخدم {user}.",
+      "announcementSent": "تم إرسال الإعلان بنجاح.",
+      "alertSent": "تم إرسال التنبيه إلى {user} بنجاح.",
+      "lockRoom": "قفل الغرفة",
+      "unlockRoom": "فتح الغرفة",
+      "alertFromAdmin": "تنبيه من الإدارة!",
+      "messageFrom": "رسالة من: {user}",
+      "close": "إغلاق",
+      "sendAlertTo": "إرسال تنبيه إلى {user}",
+      "alertPopupDescription": "سيؤدي هذا إلى إرسال إشعار منبثق للمستخدم.",
+      "alertMessageLabel": "رسالة التنبيه",
+      "alertMessagePlaceholder": "مثال: الرجاء خفض صوت الموسيقى.",
+      "sendAlertButton": "إرسال تنبيه",
+      "cancel": "إلغاء"
+    },
+    "ownerPanel": {
+      "settings": {
+        "success": "نجاح",
+        "error": "خطأ",
+        "updateSuccess": "تم تحديث إعدادات الغرفة بنجاح.",
+        "updateError": "فشل تحديث الإعدادات.",
+        "passwordUpdateSuccess": "تم تحديث كلمة مرور اللوحة بنجاح.",
+        "passwordUpdateError": "فشل تحديث كلمة المرور.",
+        "general": {
+          "title": "الإعدادات العامة",
+          "description": "تحديث معلومات غرفتك العامة ورسالة الترحيب.",
+          "nameLabel": "اسم الغرفة",
+          "welcomeMessageLabel": "رسالة الترحيب",
+          "iconLabel": "أيقونة الغرفة",
+          "iconPlaceholder": "اختر أيقونة",
+          "saveButton": "حفظ الإعدادات العامة"
+        },
+        "security": {
+          "title": "أمان اللوحة",
+          "description": "تحديث كلمة المرور للوحة المالك هذه.",
+          "passwordLabel": "كلمة المرور الجديدة",
+          "passwordPlaceholder": "أدخل كلمة مرور جديدة",
+          "saveButton": "حفظ كلمة المرور الجديدة"
+        },
+        "subscription": {
+          "title": "تاريخ تجديد الاشتراك",
+          "description": "يتم تجديد اشتراكك في هذا التاريخ. اتصل بالمسؤول للتغييرات."
+        },
+        "background": {
+          "title": "خلفية الغرفة",
+          "description": "اختر خلفية متدرجة لغرفتك.",
+          "selectAria": "اختر تدرج",
+          "resetButton": "إعادة تعيين إلى الافتراضي"
+        },
+        "access": {
+          "title": "التحكم في الوصول",
+          "lockRoom": "قفل الغرفة",
+          "enablePrivateChat": "تمكين الدردشة الخاصة",
+          "showJoinLeave": "إظهار رسائل الانضمام/المغادرة",
+          "saveButton": "حفظ إعدادات الوصول"
+        },
+        "visitor": {
+          "title": "التحكم في الزوار",
+          "muteVoice": "كتم صوت الزوار",
+          "muteText": "كتم نص الزوار",
+          "saveButton": "حفظ إعدادات الزوار"
+        }
+      },
+      "memberManagement": {
+        "title": "إدارة الأعضاء",
+        "description": "إدارة الأسماء ذات الأدوار المحددة لهذه الغرفة.",
+        "addButton": "إضافة عضو جديد",
+        "columns": {
+          "name": "الاسم",
+          "role": "الدور",
+          "color": "اللون",
+          "actions": "الإجراءات"
+        },
+        "actions": {
+          "edit": "تعديل",
+          "delete": "حذف"
+        },
+        "noMembers": "لم يتم العثور على أعضاء.",
+        "success": "نجاح",
+        "error": "خطأ",
+        "addSuccess": "تمت إضافة العضو بنجاح.",
+        "updateSuccess": "تم تحديث العضو بنجاح.",
+        "deleteSuccess": "تم حذف العضو بنجاح.",
+        "pagination": {
+          "page": "صفحة",
+          "of": "من"
+        }
+      },
+      "memberDialog": {
+        "addTitle": "إضافة عضو جديد",
+        "addDescription": "إنشاء عضو جديد لاسم في غرفتك.",
+        "editTitle": "تعديل عضو",
+        "editDescription": "تحديث تفاصيل هذا العضو.",
+        "nameLabel": "الاسم",
+        "namePlaceholder": "اسم العضو",
+        "passwordLabel": "كلمة المرور (اختياري)",
+        "passwordPlaceholder": "كلمة مرور لهذا العضو",
+        "roleLabel": "الدور",
+        "rolePlaceholder": "اختر دورًا",
+        "roles": {
+          "visitor": "زائر",
+          "special": "مميز",
+          "admin": "مشرف",
+          "superadmin": "مشرف خارق"
+        },
+        "colorLabel": "اللون",
+        "cancel": "إلغاء",
+        "add": "إضافة عضو",
+        "save": "حفظ التغييرات"
+      },
+      "deleteMemberDialog": {
+        "title": "هل أنت متأكد تمامًا؟",
+        "description1": "هذا الإجراء لا يمكن التراجع عنه. سيؤدي هذا إلى حذف دور العضو للاسم بشكل دائم",
+        "description2": "من غرفتك.",
+        "cancel": "إلغاء",
+        "delete": "حذف"
+      },
+      "security": {
+        "success": "نجاح",
+        "error": "خطأ",
+        "unbanSuccess": "تم رفع الحظر عن المستخدم.",
+        "bannedUsers": {
+          "title": "إدارة المستخدمين المحظورين",
+          "description": "إدارة المستخدمين المحظورين من هذه الغرفة.",
+          "columns": {
+            "user": "المستخدم",
+            "reason": "السبب",
+            "action": "الإجراء"
+          },
+          "unbanButton": "رفع الحظر",
+          "noBanned": "لم يتم العثور على مستخدمين محظورين."
+        },
+        "activityLog": {
+          "title": "سجل النشاط",
+          "description": "سجل بالإجراءات الإدارية الأخيرة في الغرفة.",
+          "noActivity": "لم يتم تسجيل أي نشاط."
+        },
+        "pagination": {
+          "page": "صفحة",
+          "of": "من"
+        }
+      },
+      "announcements": {
+        "title": "إرسال إعلان",
+        "description": "بث رسالة خاصة لجميع المستخدمين الموجودين حاليًا في الغرفة. ستظهر كرسالة من 'مالك الغرفة'.",
+        "placeholder": "اكتب إعلانك هنا...",
+        "button": "إرسال إعلان",
+        "errorTitle": "خطأ",
+        "successTitle": "نجاح",
+        "emptyError": "لا يمكن أن يكون الإعلان فارغًا.",
+        "successDescription": "تم إرسال الإعلان."
+      },
+      "reservedNames": {
+        "title": "الأسماء المحجوزة (بسيطة)",
+        "description": "منع الزوار من استخدام هذه الأسماء. هذا حجز نصي بسيط. للأسماء الملونة ذات الأدوار، استخدم لوحة التحكم الجذر.",
+        "placeholder": "أدخل اسمًا لحجزه",
+        "addButton": "حجز",
+        "tableHeaderName": "الاسم",
+        "tableHeaderAction": "الإجراء",
+        "removeButton": "إزالة",
+        "noNames": "لا توجد أسماء محجوزة.",
+        "success": "نجاح",
+        "error": "خطأ",
+        "addSuccess": "تم حجز الاسم \"{name}\".",
+        "removeSuccess": "تم إلغاء حجز الاسم \"{name}\"."
+      },
+      "wordFilter": {
+        "title": "فلتر الكلمات",
+        "description": "فرض رقابة تلقائية على هذه الكلمات في الدردشة.",
+        "placeholder": "أدخل كلمة لتصفيتها",
+        "addButton": "إضافة",
+        "tableHeaderWord": "الكلمة",
+        "tableHeaderAction": "الإجراء",
+        "removeButton": "إزالة",
+        "noWords": "لا توجد كلمات في الفلتر.",
+        "success": "نجاح",
+        "error": "خطأ",
+        "addSuccess": "تمت إضافة الكلمة \"{word}\" إلى الفلتر.",
+        "removeSuccess": "تمت إزالة الكلمة \"{word}\" من الفلتر."
+      }
+    },
+    "adminPanel": {
+      "signOut": "تسجيل الخروج",
+      "tabs": {
+        "roomManagement": "إدارة الغرف",
+        "resellerManagement": "إدارة الموزعين",
+        "coloredNames": "الأسماء الملونة",
+        "journal": "المجلة",
+        "visitorLogs": "سجل الزوار",
+        "security": "الأمان",
+        "announcements": "الإعلانات",
+        "settings": "الإعدادات",
+        "members": "الأعضاء",
+        "moderation": "الإشراف"
+      },
+      "root": {
+        "title": "لوحة تحكم المدير العام",
+        "description": "إدارة شاملة لجميع جوانب شبكة شات رونزا."
+      },
+      "reseller": {
+        "title": "لوحة تحكم الموزع:",
+        "description": "إدارة الغرف والأسماء المحجوزة الخاصة بك.",
+        "stats": {
+          "activeRooms": "الغرف النشطة",
+          "reservedNames": "الأسماء المحجوزة",
+          "subscriptionStatus": "حالة الاشتراك",
+          "renewsOn": "يتجدد في",
+          "bannedUsers": "المستخدمون المحظورون"
+        },
+        "announcements": {
+          "title": "إرسال إعلان لجميع الغرف",
+          "description": "إرسال رسالة بث لجميع الغرف التي تملكها.",
+          "placeholder": "اكتب إعلانك هنا...",
+          "button": "إرسال الإعلان",
+          "error": "خطأ",
+          "emptyError": "لا يمكن أن يكون الإعلان فارغًا.",
+          "success": "نجاح",
+          "successDescription": "تم إرسال الإعلان إلى جميع غرفك."
+        }
+      },
+      "owner": {
+        "title": "لوحة تحكم مالك الغرفة",
+        "description": "إدارة إعدادات وأعضاء غرفتك:"
+      }
+    },
+    "loginPages": {
+      "joinRoom": {
+        "title": "انضم إلى: {roomName}",
+        "yourName": "اسمك",
+        "namePlaceholder": "مثال، زائر123",
+        "passwordLabel": "كلمة المرور (للأسماء المحجوزة)",
+        "passwordPlaceholder": "أدخل كلمة المرور إذا كان اسمك محجوزاً",
+        "avatarLabel": "اختر أيقونة",
+        "joinButton": "دخول الغرفة",
+        "joiningButton": "جاري الدخول...",
+        "authInit": "جاري تهيئة الاتصال الآمن...",
+        "authError": "خطأ في الاتصال. يرجى إعادة المحاولة.",
+        "notSignedIn": "غير مسجل. يرجى إعادة تحميل الصفحة.",
+        "firebaseError": "فشل تهيئة الخدمات. تحقق من اتصالك.",
+        "notReady": "الاتصال غير جاهز. يرجى المحاولة مرة أخرى.",
+        "joinError": "تعذر الانضمام للغرفة. حاول مرة أخرى."
+      },
+      "owner": {
+        "title": "دخول لوحة تحكم المالك",
+        "description": "الرجاء إدخال اسم الغرفة وكلمة المرور للوصول.",
+        "errorTitle": "خطأ في الدخول",
+        "roomNameLabel": "اسم الغرفة",
+        "roomNamePlaceholder": "مثال، غرفة الأصدقاء",
+        "passwordLabel": "كلمة المرور",
+        "loginButton": "تسجيل الدخول",
+        "loggingIn": "جاري الدخول...",
+        "successTitle": "تم الدخول بنجاح!",
+        "successDescription": "سيتم توجيهك إلى لوحة التحكم.",
+        "invalidCredentials": "اسم الغرفة أو كلمة المرور غير صحيحة.",
+        "unexpectedError": "حدث خطأ غير متوقع."
+      },
+      "reseller": {
+        "title": "دخول لوحة تحكم الموزع",
+        "description": "استخدم اسم الموزع وكلمة المرور الخاصة بك.",
+        "errorTitle": "خطأ في الدخول",
+        "resellerNameLabel": "اسم الموزع",
+        "resellerNamePlaceholder": "مثال، PipoHost",
+        "passwordLabel": "كلمة المرور",
+        "loginButton": "تسجيل الدخول",
+        "loggingIn": "جاري الدخول...",
+        "successTitle": "تم الدخول بنجاح!",
+        "successDescription": "سيتم توجيهك إلى لوحة التحكم.",
+        "invalidCredentials": "اسم الموزع أو كلمة المرور غير صحيحة.",
+        "unexpectedError": "حدث خطأ غير متوقع."
+      }
+    },
+    "joinErrors": {
+      "banned": "أنت محظور من دخول هذه الغرفة.",
+      "roomLocked": "هذه الغرفة مغلقة حالياً من قبل المالك.",
+      "roomFull": "الغرفة ممتلئة حالياً. الرجاء المحاولة لاحقاً.",
+      "alreadyInThisRoom": "لا يمكنك دخول نفس الغرفة مرتين من نفس الجهاز."
+    },
+    "journalHighlight": {
+      "latestNews": "أحدث المواضيع",
+      "mostRead": "الأكثر قراءة",
+      "oldestPosts": "أقدم المواضيع",
+      "mostLiked": "الأكثر إعجابًا",
+      "mostCommented": "الأكثر تعليقًا"
+    },
+    "header": {
+      "journal": "المجلة",
+      "features": "الخصائص",
+      "support": "شرح الاستخدام",
+      "download": "تحميل البرنامج",
+      "pricing": "الأسعار",
+      "colorPricing": "أسعار الألوان",
+      "reseller": "أسعار الريسلر",
+      "about": "من نحن",
+      "terms": "سياسة الاستخدام"
+    },
+    "metadata": {
+      "about": {
+        "title": "من نحن | تعرف على فريق Ronza4Chat ورؤيتنا",
+        "description": "اكتشف قصة Ronza4Chat، الشركة المطورة لمنصة الدردشة الرائدة. تعرف على مميزاتنا التقنية، استقرار سيرفراتنا، والتزامنا بالتحديثات المستمرة لتوفير أفضل شات صوتي."
+      },
+      "colorPricing": {
+        "title": "أسعار الأسماء الملونة والمميزة | شات رونزا",
+        "description": "تميز في كل غرف شات رونزا! احجز اسمك الملون والمميز بأسعار تنافسية. اختر رتبة 'عضو مسجل'، 'اسم بخلفية'، أو 'اسم سوبر' للحصول على مظهر فريد."
+      },
+      "download": {
+        "title": "تحميل برنامج شات رونزا | تثبيت على الجوال والكمبيوتر",
+        "description": "احصل على تجربة تطبيق أصلي بتثبيت شات رونزا على جهازك. خطوات سهلة لتثبيت البرنامج على أجهزة أندرويد، iOS، ويندوز، وماك للاستمتاع بدردشة سريعة وآمنة."
+      },
+      "features": {
+        "title": "مميزات وخصائص شات رونزا | لوحات تحكم قوية",
+        "description": "استكشف الميزات المتقدمة لشات رونزا. من لوحة تحكم الريسلر إلى إدارة صلاحيات المشرفين، والدردشة الصوتية والمرئية، تعرف على كل ما تقدمه منصتنا."
+      },
+      "pricing": {
+        "title": "أسعار باقات غرف شات رونزا | خطط شهرية وسنوية",
+        "description": "اختر باقة غرف الدردشة التي تناسبك من رونزا. أسعار تنافسية تبدأ من باقات تجريبية إلى باقات الشركات الكبرى. احصل على خصم 25% على الخطط السنوية."
+      },
+      "reseller": {
+        "title": "باقات ريسلر شات رونزا | أطلق شبكة الدردشة الخاصة بك",
+        "description": "كن موزعًا معتمدًا واحصل على سيرفر خاص لإدارة وبيع غرف الدردشة. لوحة تحكم متكاملة، موارد مخصصة، ودعم فني لتبدأ مشروعك الخاص في عالم الشات."
+      },
+      "support": {
+        "title": "دليل الاستخدام والدعم الفني | شات رونزا",
+        "description": "شرح شامل لكيفية استخدام واجهة غرفة الدردشة وأدوات الإشراف في شات رونزا. تعلم كيفية إدارة الأعضاء، إعدادات الغرفة، والأمان بسهولة."
+      },
+      "terms": {
+        "title": "شروط الاستخدام وسياسة الخصوصية | شات رونزا",
+        "description": "اطلع على سياسة الاستخدام وحقوق النشر لمنصة Ronza4Chat. نلتزم بتوفير بيئة آمنة ومحترمة لجميع المستخدمين مع حماية كاملة للبيانات والخصوصية."
+      }
+    },
+    "featuresPage": {
+      "title": "خصائص ومميزات المنصة",
+      "subtitle": "نظرة شاملة على الأدوات الإدارية القوية التي تمنحك تحكمًا كاملاً في شبكة الدردشة الخاصة بك.",
+      "reseller": {
+        "title": "لوحة تحكم الموزع (Reseller Panel)",
+        "description": "أدوات متكاملة للموزعين لإدارة شبكتهم الخاصة من الغرف والعملاء.",
+        "stats": "إحصائيات خاصة",
+        "statsDesc": "عرض عدد الغرف النشطة والأسماء المحجوزة الخاصة بك وتاريخ التجديد.",
+        "roomMgmt": "إدارة غرفك الخاصة",
+        "roomMgmtDesc": "إنشاء غرف جديدة لعملائك، تعديل إعداداتها، أو حذفها.",
+        "coloredNames": "إدارة أسماء عملائك",
+        "coloredNamesDesc": "حجز وتخصيص أسماء ملونة ومميزة لعملاء شبكتك.",
+        "embed": "كود التضمين",
+        "embedDesc": "الحصول على كود HTML لتضمين بطاقة دعوة للغرفة في أي موقع خارجي.",
+        "password": "أمان لوحة التحكم",
+        "passwordDesc": "تعيين كلمة مرور خاصة للوحة التحكم الخاصة بك لضمان الأمان."
+      },
+      "owner": {
+        "title": "لوحة تحكم مالك الغرفة",
+        "description": "تحكم دقيق في كل تفاصيل غرفتك الخاصة لإدارة مجتمعك بفعالية.",
+        "general": "الإعدادات العامة",
+        "generalDesc": "تغيير اسم الغرفة، رسالة الترحيب، والأيقونة التي تظهر للجميع.",
+        "members": "إدارة الأعضاء والأدوار",
+        "membersDesc": "تعيين أدوار (مشرف، عضو خاص) بأسماء وألوان وكلمات مرور مخصصة.",
+        "security": "الأمان والسجل",
+        "securityDesc": "مراجعة سجل الإجراءات الإدارية وإدارة قائمة المستخدمين المحظورين.",
+        "access": "التحكم بالوصول",
+        "accessDesc": "جعل الغرفة عامة أو خاصة، وقفلها لمنع دخول مستخدمين جدد.",
+        "visitor": "التحكم بالزوار",
+        "visitorDesc": "كتم الصوت أو الكتابة عن الزوار للحفاظ على النظام.",
+        "moderation": "أدوات الإشراف",
+        "moderationDesc": "إرسال إعلانات عامة، حجز أسماء، وفلترة الكلمات غير المرغوب فيها."
+      },
+      "inRoom": {
+        "title": "مميزات داخل الغرفة والأدوار",
+        "description": "أدوات قوية للتواصل والتفاعل بين الأعضاء والمشرفين داخل الغرف.",
+        "moderation": "صلاحيات المشرفين",
+        "moderationDesc": "يستطيع المشرفون كتم صوت أو كتابة الأعضاء، وطردهم أو حظرهم من الغرفة.",
+        "ranks": "الرتب والنجوم",
+        "ranksDesc": "نظام رتب متكامل (زائر، مميز، أدمن، سوبر أدمن) مع نجوم وألوان فريدة لكل رتبة.",
+        "coloredNames": "أسماء ملونة ومميزة",
+        "coloredNamesDesc": "يمكن للأعضاء تخصيص لون أسمائهم للتميز داخل الدردشة.",
+        "voiceChat": "دردشة صوتية وفيديو",
+        "voiceChatDesc": "جودة صوت وفيديو عالية باستخدام أحدث التقنيات لضمان تجربة تواصل سلسة.",
+        "textChat": "دردشة كتابية تفاعلية",
+        "textChatDesc": "دردشة نصية سريعة مع إمكانية استخدام الإيموجي وتغيير لون الخط وحجمه.",
+        "privateChat": "محادثات خاصة آمنة",
+        "privateChatDesc": "إمكانية إرسال رسائل خاصة بين الأعضاء بسرية تامة."
+      }
+    },
+    "postsPage": {
+      "metaTitle": "أحدث بوستات وتحديثات شات رونزا | انضم للمجتمع",
+      "metaDescription": "تابع آخر الأخبار، التحديثات، والفعاليات في مجتمع شات رونزا. شارك بتعليقك، سجل إعجابك، وكن جزءًا من الحوار المتجدد.",
+      "title": "مجلة رونزا",
+      "subtitle": "آخر الأخبار والتحديثات من فريق شات رونزا",
+      "like": "أعجبني",
+      "comment": "تعليق",
+      "commentsTitle": "التعليقات",
+      "noComments": "لا توجد تعليقات بعد. كن أول من يعلق!",
+      "commentPlaceholder": "اكتب تعليقك...",
+      "namePlaceholder": "اسمك",
+      "error": "خطأ",
+      "errorNameComment": "الرجاء إدخال اسمك وتعليقك.",
+      "errorCaptcha": "إجابة التحقق غير صحيحة.",
+      "promoPhrases": [
+        "شارك برأيك، كن جزءاً من مجتمعنا",
+        "تفاعل، علّق، وأعجب بالبوستات",
+        "صوتك مسموع في شات رونزا",
+        "اكتشف آخر الأخبار والتحديثات أولاً بأول"
+      ],
+      "readMore": "اقرأ المزيد",
+      "published": "نشر قبل",
+      "by": "بواسطة",
+      "shareTitle": "شارك هذا الموضوع",
+      "linkCopied": "تم نسخ الرابط!"
+    },
+    "hero": {
+      "title": "أهلاً بك في غرف دردشة رونزا",
+      "subtitle": "تواصل مع العالم. اكتشف غرف الدردشة العامة لدينا.",
+      "journalButton": "اكتشف مجلة رونزا"
+    },
+    "promoBanner": {
+      "phrases": [
+        "احصل على غرفة صوتية بأقل الأسعار",
+        "تواصل مع أصدقائك بجودة عالية",
+        "أنشئ مجتمعك الخاص الآن",
+        "أقوى العروض على غرف الدردشة"
+      ],
+      "subtitle": "استفد من عروضنا الحصرية وابدأ مجتمعك اليوم!",
+      "button": "واتساب"
+    },
+    "publicRooms": {
+      "title": "غرف الدردشة العامة",
+      "everyone": "الجميع",
+      "subtitle": "انضم إلى غرفة لبدء الدردشة، أو أنشئ غرفتك الخاصة.",
+      "sortBy": "ترتيب حسب:",
+      "latest": "الأحدث",
+      "popular": "الأكثر شعبية",
+      "favorite": "الأكثر تفضيلاً",
+      "noRooms": "لا توجد غرف عامة متاحة في الوقت الحالي.",
+      "joinNow": "انضم الآن",
+      "categories": {
+        "all": "الكل",
+        "european": "غرف أوروبية",
+        "american": "غرف أمريكية",
+        "asian": "غرف آسيوية"
+      },
+      "featuredRoom": {
+        "phrases": ["مسابقات", "ترفيه", "العاب", "حوار"],
+        "joinNow": "انضم الآن"
+      }
+    },
+    "footer": {
+      "about": "من نحن",
+      "terms": "سياسة الاستخدام",
+      "rights": "غرف دردشة رونزا. جميع الحقوق محفوظة 2025 ©"
+    },
+    "aboutPage": {
+      "companyTitle": "الشركة المطورة: Ronza4Chat - الشركة الرسمية",
+      "companySubtitle": "نلتزم بتطوير وتحديث البرنامج بشكل دوري لنضمن لكم أحدث التقنيات وأفضل تجربة استخدام.",
+      "featuresTitle": "مميزات Ronza4Chat",
+      "ctaTitle": "احصل على غرفتك الآن مع إصدار Ronza4Chat 1.0.0",
+      "ctaSubtitle": "وكن جزءاً من الجيل الجديد لتطبيقات الدردشة الصوتية والكتابية والمرئية.",
+      "ctaButton": "احصل على غرفتك",
+      "manager": {
+        "title": "فريق رونزا",
+        "name": "فريق رونزا",
+        "address": "حيفا",
+        "postalCode": "pipohost@gmail.com"
+      },
+      "features": [
+        { "title": "شات صوتي متكامل", "description": "تواصل مع الأعضاء بجودة صوت عالية وبدون انقطاع." },
+        { "title": "شات كتابي تفاعلي", "description": "إرسال رسائل نصية مع دعم الإيموجي والألوان المخصصة والميزات التفاعلية." },
+        { "title": "شات مرئي (فيديو)", "description": "استمتع بمكالمات الفيديو الجماعية بجودة نقية مع أحدث تقنيات WebRTC." },
+        { "title": "لوحة إدارية حديثة", "description": "تحكم كامل بالغرفة: إدارة الأعضاء، الألوان، الأيقونات، والصلاحيات." },
+        { "title": "تشغيل مباشر من المتصفح", "description": "يعمل من أي متصفح حديث دون الحاجة لتنزيل أو تثبيت برامج." },
+        { "title": "سعة الغرف مرنة", "description": "من 25 عضو حتى 2000 عضو، أو حتى أعداد غير محدودة حسب الباقة." },
+        { "title": "أمان واستقرار", "description": "سيرفرات قوية مبنية على أحدث التقنيات الأمريكية لتوفير الحماية وأداء مستقر." },
+        { "title": "التحديثات المستمرة", "description": "يتم تحديث Ronza4Chat بشكل دوري لإضافة مزايا جديدة وتعزيز الأداء وتجربة المستخدم." }
+      ]
+    },
+    "termsPage": {
+        "mainTitle": "Ronza4Chat - شروط الاستخدام وسياسة حقوق النشر",
+        "copyrightTitle": "حقوق النشر",
+        "copyrightText1": "جميع الحقوق محفوظة لشركة Ronza4Chat © 2025.",
+        "copyrightText2": "يمنع إعادة بيع البرنامج أو نسخه أو تعديله ومحتوياته بدون إذن كتابي من الشركة. العلامة التجارية Ronza4Chat محمية بقوانين الملكية الفكرية.",
+        "policyTitle": "سياسة استخدام الغرف",
+        "policyText": "نسعى لجعل غرف Ronza4Chat بيئة آمنة ومحترمة ومهنية لجميع الأعضاء. لذلك، نرجو منكم الالتزام بالآتي:",
+        "allowed": "المسموح به",
+        "allowedItems": [
+            "التواصل باحترام - تحدث بأدب مع جميع الأعضاء.",
+            "حرية التعبير - شارك أفكارك وآرائك في حدود القوانين والآداب العامة.",
+            "التعاون - ساعد الآخرين وادعم التواصل الإيجابي.",
+            "استخدام المايك والفيديو بمسؤولية - اجعل مساهماتك مفيدة ومناسبة."
+        ],
+        "forbidden": "الممنوع",
+        "forbiddenItems": [
+            "الشتم أو القذف أو السباب بأي شكل من الأشكال.",
+            "نشر محتوى مخالف للقانون (عنصري، تحريضي، إباحي، أو ضد القانون).",
+            "إزعاج الآخرين بالتكرار أو الضوضاء.",
+            "العبث بلوحة الإدارة أو محاولة اختراق النظام."
+        ],
+        "securityTitle": "الأمان والخصوصية",
+        "securityText": "تتم مراقبة الغرف للتأكد من الالتزام بالقواعد. وتحتفظ الشركة بالحق في حظر أو إغلاق أي غرفة تخالف السياسات. البيانات والمحادثات محمية وفق أعلى معايير الأمان.",
+        "updatesTitle": "التحديثات المستمرة",
+        "updatesText": "تقوم Ronza4Chat بمراجعة وتحديث هذه السياسات بشكل دوري لضمان تجربة عادلة وآمنة للجميع."
+    },
+    "pricingPage": {
+        "title": "باقات الأسعار لدينا",
+        "subtitle": "اختر الباقة التي تناسب احتياجات مجتمعك وميزانيتك. ابدأ في دقائق.",
+        "supportButton": "تواصل مع الدعم",
+        "salesButton": "تواصل مع المبيعات",
+        "billingCycle": "دورة الفوترة",
+        "monthly": "شهري",
+        "yearly": "سنوي",
+        "save": "خصم 25%",
+        "visitorsCapacity": "سعة الزوار",
+        "orderButton": "اطلب عبر واتساب",
+        "businessOwnerTitle": "هل أنت صاحب عمل أو مجتمع؟",
+        "businessOwnerText": "أطلق شبكة الدردشة الخاصة بك مع باقات الريسلر القوية لدينا. احصل على سيرفر مخصص ولوحة تحكم لإنشاء وإدارة غرفك الخاصة.",
+        "resellerPlansButton": "عرض باقات الريسلر",
+        "coloredNameTitle": "احجز اسمك الملون",
+        "coloredNameText": "تميز في كل غرفة باسم مستخدم فريد وملون ومحمي بكلمة مرور.",
+        "reserveButton": "احجز عبر واتساب",
+        "directOrder": "للطلب المباشر والدعم الفني",
+        "mostPopular": "الأكثر شهرة",
+        "yr": "سنة",
+        "mo": "شهر",
+        "plans": {
+          "Trial": "تجريبية",
+          "Starter": "مبتدئة",
+          "Community": "مجتمع",
+          "Bronze": "برونزية",
+          "Silver": "فضية",
+          "Gold": "ذهبية",
+          "Platinum": "بلاتينية",
+          "Diamond": "ماسية",
+          "Titanium": "تيتانيوم",
+          "Enterprise": "شركات",
+          "Ultimate": "نهائية"
+        },
+        "features": [
+            "ألوان غير محدودة للمشرفين",
+            "لوحة تحكم متقدمة",
+            "إدراج تلقائي في الموقع",
+            "أمان رائد في المجال",
+            "واجهة متوافقة مع الجوال"
+        ]
+    },
+    "resellerPage": {
+        "mainTitle": "شراء ريسلر غرف",
+        "mainSubtitle": "أطلق مشروعك الخاص في غرف الدردشة مع سيرفرات الريسلر القوية والآمنة.",
+        "supportButton": "تواصل مع الدعم",
+        "salesButton": "تواصل مع المبيعات",
+        "whatIsTitle": "ما هو ريسلر الغرف؟",
+        "whatIsText": "حساب ريسلر الغرف يمنحك سيرفرًا خاصًا قويًا ولوحة تحكم متكاملة تتيح لك إنشاء وإدارة وبيع غرف الدردشة الخاصة بك. أنت تصبح المالك المتحكم بالكامل في غرفك وأعضائك وإعداداتك. إنه الحل الأمثل للمجتمعات والشركات أو رواد الأعمال الذين يرغبون في بناء شبكة دردشة خاصة بهم.",
+        "panelFeaturesTitle": "مميزات لوحة الريسلر:",
+        "panelFeatures": [
+          "سيرفر خاص بك بموارد مخصصة.",
+          "إنشاء وإدارة عشرات أو حتى آلاف الغرف.",
+          "تعيين أسماء وسعات وتواريخ انتهاء مخصصة لكل غرفة.",
+          "إدارة الأسماء المحجوزة والمشرفين على مستوى كل غرفك.",
+          "تحكم أمني كامل، بما في ذلك حظر المستخدمين من شبكتك بالكامل."
+        ],
+        "choosePlanTitle": "اختر باقة الريسلر المناسبة لك",
+        "choosePlanSubtitle": "جميع الباقات تشمل لوحة تحكم خاصة، صلاحيات إدارة كاملة، ودعم فني مميز.",
+        "monthly": "شهري",
+        "yearly": "سنوي",
+        "save": "خصم 10%",
+        "orderButton": "اطلب عبر واتساب",
+        "paymentNoteTitle": "ملاحظة هامة",
+        "paymentNoteText": "بعد إتمام عملية الدفع، يرجى التواصل مع إدارة الشركة عبر البريد الإلكتروني أو واتساب مع تفاصيل العملية لاستلام لوحة الريسلر الخاصة بك.",
+        "contactSupport": "للاستفسار تواصل معنا على",
+        "directOrder": "للطلب المباشر والدعم الفني",
+        "rooms": "غرفة",
+        "reseller": "ريسلر",
+        "mostPopular": "الأكثر طلباً",
+        "features": [
+            "لوحة ريسلر متقدمة",
+            "إدارة كاملة للأعضاء",
+            "إعدادات غرفة مخصصة",
+            "دعم فني 24/7"
+        ],
+        "upToRooms": "حتى"
+    },
+     "downloadPage": {
+        "title": "تثبيت شات رونزا",
+        "subtitle": "احصل على تجربة شبيهة بالتطبيقات الأصلية بتثبيت تطبيقنا على جهازك. إنه سريع، آمن، ويعمل دون اتصال بالإنترنت.",
+        "mobileTitle": "للجوال (أندرويد، iOS)",
+        "mobileSubtitle": "يمكنك أيضًا إضافة شات رونزا إلى شاشتك الرئيسية لسهولة الوصول.",
+        "mobileStep1Title": "1. افتح في المتصفح",
+        "mobileStep1Text": "انتقل إلى موقعنا باستخدام متصفح كروم على أندرويد أو سفاري على iOS.",
+        "mobileStep2Title": "2. استخدم 'إضافة إلى الشاشة الرئيسية'",
+        "mobileStep2Android": "في أندرويد (كروم): اضغط على أيقونة القائمة (ثلاث نقاط)، ثم اختر 'تثبيت التطبيق' أو 'إضافة إلى الشاشة الرئيسية'.",
+        "mobileStep2Ios": "في iOS (سفاري): اضغط على أيقونة 'مشاركة' (مربع به سهم لأعلى)، ثم مرر لأسفل واختر 'إضافة إلى الشاشة الرئيسية'.",
+        "mobileStep3Title": "3. تأكيد وإطلاق",
+        "mobileStep3Text": "قم بتأكيد الإضافة، وستظهر أيقونة شات رونزا على شاشتك الرئيسية، تمامًا مثل أي تطبيق عادي.",
+        "showHintButton": "عرض تلميح التثبيت",
+        "desktopTitle": "لسطح المكتب (ويندوز، ماك، لينكس)",
+        "desktopSubtitle": "اتبع هذه الخطوات للتثبيت على جهاز الكمبيوتر باستخدام كروم، إيدج، أو المتصفحات الأخرى المتوافقة.",
+        "desktopStep1Title": "1. قم بزيارة الموقع",
+        "desktopStep1Text": "تأكد من أنك تستعرض هذا الموقع في متصفح حديث مثل جوجل كروم أو مايكروسوفت إيدج.",
+        "desktopStep2Title": "2. ابحث عن أيقونة التثبيت",
+        "desktopStep2Text": "في شريط العنوان (أعلى المتصفح)، يجب أن ترى أيقونة تشبه شاشة بها سهم لأسفل.",
+        "desktopStep3Title": "3. انقر وأكد",
+        "desktopStep3Text": "انقر على الأيقونة، ثم انقر على زر 'تثبيت' في النافذة المنبثقة للتأكيد. سيتم إضافة التطبيق إلى سطح المكتب و/أو قائمة ابدأ."
+    },
+    "supportPage": {
+        "mainTitle": "دليل استخدام شات رونزا",
+        "interfaceTitle": "واجهة غرفة الدردشة",
+        "adminPanelTitle": "لوحة إدارة الغرفة",
+        "features": [
+            { "id": "support-members", "title": "قائمة الأعضاء", "description": "على الجانب، ستجد قائمة بجميع الأعضاء الموجودين حاليًا في الغرفة. لكل عضو بطاقة تعرض اسمه وصورته الرمزية وأيقونات خاصة لرتبته. يمكنك النقر على أيقونة الإعدادات على أي مستخدم لاتخاذ إجراءات مثل المراسلة الخاصة أو الإشراف إذا كان لديك الصلاحيات." },
+            { "id": "support-chat-tools", "title": "أدوات الدردشة والتحكم", "description": "المنطقة الرئيسية مخصصة للدردشة. اكتب رسالتك في مربع الإدخال بالأسفل. استخدم الأزرار لتغيير لون النص، إضافة الإيموجي، تعيين حالتك، تبديل الميكروفون/الكاميرا، أو إرسال الرسالة." },
+            { "id": "support-av", "title": "الصوت والفيديو", "description": "عندما يقوم مستخدم بتشغيل الكاميرا، ستظهر أيقونة فيديو على بطاقته. انقر عليها لفتح نافذة فيديو عائمة وقابلة لتغيير الحجم. يمكنك أيضًا تبديل الميكروفون والكاميرا الخاصة بك باستخدام عناصر التحكم في الأسفل." },
+            { "id": "support-room-settings", "title": "إعدادات الغرفة", "description": "بصفتك مالك الغرفة، لديك لوحة تحكم خاصة. هنا، يمكنك تغيير اسم الغرفة ورسالة الترحيب وتحميل صورة جديدة للغرفة. يمكنك أيضًا قفل/فتح الغرفة وتفعيل/تعطيل الدردشة الخاصة للزوار." },
+            { "id": "support-member-management", "title": "إدارة الأعضاء", "description": "أضف أو عدّل أو احذف الأعضاء المسجلين في غرفتك. يمكنك تعيين أدوار محددة لهم (مثل مشرف أو عضو خاص)، ولون فريد، وكلمة مرور للوصول الحصري." },
+            { "id": "support-security", "title": "الأمان والإشراف", "description": "اعرض المستخدمين المتصلين في الوقت الفعلي وقم بحظرهم إذا لزم الأمر. تعرض قائمة المستخدمين المحظورين كل من تم منعه من غرفتك، ويمكنك رفع الحظر عنهم من هنا." }
+        ]
+    },
+     "colorPricingPage": {
+        "title": "أسعار الرتب الشكلية",
+        "subtitle": "اختر رتبة تميزك في كل الغرف. احصل على لون فريد ونجوم براقة ومظهر احترافي دون صلاحيات إدارية.",
+        "orderButton": "احجز عبر واتساب",
+        "footerNote": "الأسعار شهرية. هذه الباقات للتميز الشكلي فقط ولا تمنح أي صلاحيات إدارية. تواصل معنا لمعرفة تفاصيل الباقات السنوية والخصومات.",
+        "tiers": {
+            "registered_member": {
+                "title": "عضو مسجل",
+                "description": "رتبة أساسية مع 4 نجوم خضراء."
+            },
+            "background_name": {
+                "title": "اسم بخلفية",
+                "description": "اسم مميز مع 6 نجوم زرقاء وخلفية متدرجة جذابة."
+            },
+            "super_name": {
+                "title": "اسم سوبر",
+                "description": "أعلى رتبة شكلية مع 5 نجوم ذهبية وخلفية متحركة."
+            }
+        }
+    },
+    "room": {
+      "reconnecting": "انقطع الاتصال",
+      "reconnecting_subtitle": "جاري محاولة إعادة الاتصال...",
+      "reconnecting_countdown": "إعادة المحاولة خلال {countdown} ثوانٍ",
+      "mute_room_toast": "تم كتم صوت الغرفة.",
+      "unmute_room_toast": "تم إلغاء كتم صوت الغرفة.",
+      "mute_mic_by_owner_tooltip": "الصوت مكتوم للزوار",
+      "toggle_mic_tooltip": "تبديل الميكروفون",
+      "toggle_camera_tooltip": "تبديل الكاميرا",
+      "raise_hand_tooltip": "رفع اليد",
+      "mute_room_tooltip": "كتم/إلغاء كتم صوت الغرفة",
+      "mic_muted_by_owner_dropdown": "الصوت مكتوم للزوار",
+      "mic_dropdown": "الميكروفون",
+      "camera_dropdown": "الكاميرا",
+      "raise_hand_dropdown": "رفع اليد",
+      "mute_room_dropdown": "كتم صوت الغرفة",
+      "kick_user_success": "تم طرد المستخدم {user}",
+      "kick_user_fail": "فشل طرد المستخدم",
+      "ban_user_success": "تم حظر المستخدم {user}",
+      "ban_user_fail": "فشل حظر المستخدم",
+      "mute_user_success": "{user} تم كتم صوته",
+      "unmute_user_success": "{user} تم إلغاء كتم صوته",
+      "mute_user_fail": "فشل في تبديل الكتم",
+      "private_chat_with": "محادثة خاصة مع {user}",
+      "pm_placeholder": "اكتب رسالتك...",
+      "ban_reason_prompt": "سبب حظر {user}:"
+    },
+    "langSwitch": "English",
+    "exit": "خروج من الغرفة",
+    "members": "الأعضاء",
+    "videoHint": "نافذة فيديو عائمة",
+    "placeholder": "اكتب رسالتك...",
+    "muted_placeholder": "الدردشة النصية مكتومة للزوار حاليًا",
+    "color": "اللون",
+    "fontSize": "حجم الخط",
+    "emoji": "إيموجي",
+    "status": "ضبط الحالة",
+    "status_clear": "مسح الحالة",
+    "status_custom": "✍️ كتابة حالة خاصة",
+    "status_custom_prompt": "أدخل الحالة الخاصة بك (30 حرفًا كحد أقصى):",
+    "font_fixed": "حجم الخط ثابت على 18pt.",
+    "status_sleeping": "نائم",
+    "status_eating": "يأكل",
+    "status_drinking": "يشرب",
+    "status_away": "بالخارج",
+    "status_driving": "يقود",
+    "status_oncall": "في مكالمة",
+    "status_online": "أصبح الآن متصلاً.",
+    "status_hand_raised": "رفع يده للكلام.",
+    "pm": "رسالة خاصة",
+    "profile": "الملف الشخصي",
+    "mute": "كتم النص",
+    "unmute": "إلغاء كتم النص",
+    "kick": "طرد",
+    "ban": "حظر",
+    "watchStream": "مشاهدة البث"
+  },
+  "en": {
+    "moderation": {
+      "forceMicDrop": "Force Mic Drop",
+      "forceMicDropAll": "Drop All Mics",
+      "toggleDnd": "Do Not Disturb",
+      "clearChat": "Clear Chat",
+      "toggleRole": "Toggle Role",
+      "grantOpenMic": "Grant Open Mic",
+      "revokeOpenMic": "Revoke Open Mic",
+      "sendUserAlert": "Send User Alert",
+      "sendPublicAnnouncement": "Room Announcement",
+      "dndEnabledSuccess": "Do Not Disturb enabled. You will not receive private messages.",
+      "dndDisabledSuccess": "Do Not Disturb disabled.",
+      "userIsDnd": "This user is not accepting private messages right now.",
+      "micDropSuccess": "Mic dropped for {user}.",
+      "micDropAllSuccess": "All mics have been dropped.",
+      "chatClearedSuccess": "Chat has been cleared.",
+      "roleToggledSuccess": "{user}'s role has been toggled.",
+      "openMicGranted": "Open mic granted to {user}.",
+      "openMicRevoked": "Open mic revoked for {user}.",
+      "announcementSent": "Announcement sent successfully.",
+      "alertSent": "Alert sent to {user} successfully.",
+      "lockRoom": "Lock Room",
+      "unlockRoom": "Unlock Room",
+      "alertFromAdmin": "Alert from Admin!",
+      "messageFrom": "Message from: {user}",
+      "close": "Close",
+      "sendAlertTo": "Send Alert to {user}",
+      "alertPopupDescription": "This will send a pop-up notification to the user.",
+      "alertMessageLabel": "Alert Message",
+      "alertMessagePlaceholder": "E.g., Please lower your music volume.",
+      "sendAlertButton": "Send Alert",
+      "cancel": "Cancel"
+    },
+    "ownerPanel": {
+      "settings": {
+        "success": "Success",
+        "error": "Error",
+        "updateSuccess": "Room settings updated successfully.",
+        "updateError": "Failed to update settings.",
+        "passwordUpdateSuccess": "Panel password updated successfully.",
+        "passwordUpdateError": "Failed to update password.",
+        "general": {
+          "title": "General Settings",
+          "description": "Update your room's public information and welcome message.",
+          "nameLabel": "Room Name",
+          "welcomeMessageLabel": "Welcome Message",
+          "iconLabel": "Room Icon",
+          "iconPlaceholder": "Select an icon",
+          "saveButton": "Save General Settings"
+        },
+        "security": {
+          "title": "Panel Security",
+          "description": "Update the password for this owner panel.",
+          "passwordLabel": "New Password",
+          "passwordPlaceholder": "Enter new password",
+          "saveButton": "Save New Password"
+        },
+        "subscription": {
+          "title": "Subscription Renewal Date",
+          "description": "Your subscription renews on this date. Contact admin for changes."
+        },
+        "background": {
+          "title": "Room Background",
+          "description": "Choose a background gradient for your room.",
+          "selectAria": "Select gradient",
+          "resetButton": "Reset to Default"
+        },
+        "access": {
+          "title": "Access Control",
+          "lockRoom": "Lock Room",
+          "enablePrivateChat": "Enable Private Chat",
+          "showJoinLeave": "Show Join/Leave Messages",
+          "saveButton": "Save Access Settings"
+        },
+        "visitor": {
+          "title": "Visitor Control",
+          "muteVoice": "Mute Visitors (Voice)",
+          "muteText": "Mute Visitors (Text)",
+          "saveButton": "Save Visitor Settings"
+        }
+      },
+      "memberManagement": {
+        "title": "Member Management",
+        "description": "Manage names with specific roles for this room.",
+        "addButton": "Add New Member",
+        "columns": {
+          "name": "Name",
+          "role": "Role",
+          "color": "Color",
+          "actions": "Actions"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "noMembers": "No members found.",
+        "success": "Success",
+        "error": "Error",
+        "addSuccess": "Member added successfully.",
+        "updateSuccess": "Member updated successfully.",
+        "deleteSuccess": "Member deleted successfully.",
+        "pagination": {
+          "page": "Page",
+          "of": "of"
+        }
+      },
+      "memberDialog": {
+        "addTitle": "Add New Member",
+        "addDescription": "Create a new member for a name in your room.",
+        "editTitle": "Edit Member",
+        "editDescription": "Update the details for this member.",
+        "nameLabel": "Name",
+        "namePlaceholder": "Member's Name",
+        "passwordLabel": "Password (Optional)",
+        "passwordPlaceholder": "Password for this member",
+        "roleLabel": "Role",
+        "rolePlaceholder": "Select a role",
+        "roles": {
+          "visitor": "Visitor",
+          "special": "Special",
+          "admin": "Admin",
+          "superadmin": "Super Admin"
+        },
+        "colorLabel": "Color",
+        "cancel": "Cancel",
+        "add": "Add Member",
+        "save": "Save Changes"
+      },
+      "deleteMemberDialog": {
+        "title": "Are you absolutely sure?",
+        "description1": "This action cannot be undone. This will permanently delete the member role for the name",
+        "description2": "from your room.",
+        "cancel": "Cancel",
+        "delete": "Delete"
+      },
+      "security": {
+        "success": "Success",
+        "error": "Error",
+        "unbanSuccess": "User unbanned.",
+        "bannedUsers": {
+          "title": "Banned Users Management",
+          "description": "Manage users who are banned from this room.",
+          "columns": {
+            "user": "User",
+            "reason": "Reason",
+            "action": "Action"
+          },
+          "unbanButton": "Unban",
+          "noBanned": "No banned users found."
+        },
+        "activityLog": {
+          "title": "Activity Log",
+          "description": "A log of recent administrative actions in the room.",
+          "noActivity": "No activity recorded."
+        },
+        "pagination": {
+          "page": "Page",
+          "of": "of"
+        }
+      },
+      "announcements": {
+        "title": "Send Announcement",
+        "description": "Broadcast a special message to all users currently in the room. This will appear as a message from 'Room Owner'.",
+        "placeholder": "Type your announcement here...",
+        "button": "Send Announcement",
+        "errorTitle": "Error",
+        "successTitle": "Success",
+        "emptyError": "Announcement message cannot be empty.",
+        "successDescription": "Announcement sent."
+      },
+      "reservedNames": {
+        "title": "Reserved Names (Simple)",
+        "description": "Prevent visitors from using these names. This is a simple text-only reservation. For colored names with roles, use the Root Panel.",
+        "placeholder": "Enter a name to reserve",
+        "addButton": "Reserve",
+        "tableHeaderName": "Name",
+        "tableHeaderAction": "Action",
+        "removeButton": "Remove",
+        "noNames": "No names reserved.",
+        "success": "Success",
+        "error": "Error",
+        "addSuccess": "Name \"{name}\" reserved.",
+        "removeSuccess": "Name \"{name}\" unreserved."
+      },
+      "wordFilter": {
+        "title": "Word Filter",
+        "description": "Automatically censor these words in chat.",
+        "placeholder": "Enter a word to filter",
+        "addButton": "Add",
+        "tableHeaderWord": "Word",
+        "tableHeaderAction": "Action",
+        "removeButton": "Remove",
+        "noWords": "No words in filter.",
+        "success": "Success",
+        "error": "Error",
+        "addSuccess": "Word \"{word}\" added to filter.",
+        "removeSuccess": "Word \"{word}\" removed from filter."
+      }
+    },
+    "adminPanel": {
+      "signOut": "Sign Out",
+      "tabs": {
+        "roomManagement": "Room Management",
+        "resellerManagement": "Reseller Management",
+        "coloredNames": "Colored Names",
+        "journal": "Journal",
+        "visitorLogs": "Visitor Logs",
+        "security": "Security",
+        "announcements": "Announcements",
+        "settings": "Settings",
+        "members": "Members",
+        "moderation": "Moderation"
+      },
+      "root": {
+        "title": "Root Admin Panel",
+        "description": "Comprehensive management of all aspects of the Ronza Chat network."
+      },
+      "reseller": {
+        "title": "Reseller Panel:",
+        "description": "Manage your rooms and reserved names.",
+        "stats": {
+          "activeRooms": "Active Rooms",
+          "reservedNames": "Reserved Names",
+          "subscriptionStatus": "Subscription Status",
+          "renewsOn": "Renews on",
+          "bannedUsers": "Banned Users"
+        },
+        "announcements": {
+          "title": "Send Announcement to All Rooms",
+          "description": "Send a broadcast message to all rooms you own.",
+          "placeholder": "Type your announcement here...",
+          "button": "Send Announcement",
+          "error": "Error",
+          "emptyError": "Announcement cannot be empty.",
+          "success": "Success",
+          "successDescription": "Announcement sent to all your rooms."
+        }
+      },
+      "owner": {
+        "title": "Room Owner Panel",
+        "description": "Manage your room's settings and members:"
+      }
+    },
+    "loginPages": {
+      "joinRoom": {
+        "title": "Join: {roomName}",
+        "yourName": "Your Name",
+        "namePlaceholder": "e.g., Visitor123",
+        "passwordLabel": "Password (for reserved names)",
+        "passwordPlaceholder": "Enter password if your name is reserved",
+        "avatarLabel": "Choose an Icon",
+        "joinButton": "Join Room",
+        "joiningButton": "Joining...",
+        "authInit": "Initializing secure connection...",
+        "authError": "Connection error. Please try again.",
+        "notSignedIn": "Not signed in. Please reload the page.",
+        "firebaseError": "Failed to initialize services. Check your connection.",
+        "notReady": "Connection not ready. Please try again.",
+        "joinError": "Could not join the room. Please try again."
+      },
+      "owner": {
+        "title": "Owner Panel Login",
+        "description": "Please enter the room name and password to access.",
+        "errorTitle": "Login Error",
+        "roomNameLabel": "Room Name",
+        "roomNamePlaceholder": "e.g., Friends Room",
+        "passwordLabel": "Password",
+        "loginButton": "Login",
+        "loggingIn": "Logging in...",
+        "successTitle": "Login Successful!",
+        "successDescription": "You will be redirected to the control panel.",
+        "invalidCredentials": "Incorrect room name or password.",
+        "unexpectedError": "An unexpected error occurred."
+      },
+      "reseller": {
+        "title": "Reseller Panel Login",
+        "description": "Use your reseller name and password.",
+        "errorTitle": "Login Error",
+        "resellerNameLabel": "Reseller Name",
+        "resellerNamePlaceholder": "e.g., PipoHost",
+        "passwordLabel": "Password",
+        "loginButton": "Login",
+        "loggingIn": "Logging in...",
+        "successTitle": "Login Successful!",
+        "successDescription": "You will be redirected to the control panel.",
+        "invalidCredentials": "Incorrect reseller name or password.",
+        "unexpectedError": "An unexpected error occurred."
+      }
+    },
+    "joinErrors": {
+      "banned": "You are banned from entering this room.",
+      "roomLocked": "This room is currently locked by the owner.",
+      "roomFull": "The room is currently full. Please try again later.",
+      "alreadyInThisRoom": "You cannot enter the same room twice from the same device."
+    },
+    "journalHighlight": {
+      "latestNews": "Latest Posts",
+      "mostRead": "Most Read",
+      "oldestPosts": "Oldest Posts",
+      "mostLiked": "Most Liked",
+      "mostCommented": "Most Commented"
+    },
+    "header": {
+      "journal": "Journal",
+      "features": "Features",
+      "support": "User Guide",
+      "download": "Download App",
+      "pricing": "Pricing",
+      "colorPricing": "Color Pricing",
+      "reseller": "Reseller Pricing",
+      "about": "About Us",
+      "terms": "Terms of Use"
+    },
+     "metadata": {
+      "about": {
+        "title": "About Us | Learn About the Ronza4Chat Team and Our Vision",
+        "description": "Discover the story of Ronza4Chat, the developer of the leading chat platform. Learn about our technical features, server stability, and commitment to continuous updates for the best voice chat."
+      },
+      "colorPricing": {
+        "title": "Colored & Special Name Pricing | Ronza Chat",
+        "description": "Stand out in every Ronza chat room! Reserve your unique colored name at competitive prices. Choose 'Registered Member', 'Name with Background', or 'Super Name' for a unique look."
+      },
+      "download": {
+        "title": "Download Ronza Chat | Install on Mobile & Desktop",
+        "description": "Get a native app experience by installing Ronza Chat on your device. Easy steps to install on Android, iOS, Windows, and Mac for a fast and secure chat experience."
+      },
+      "features": {
+        "title": "Ronza Chat Features | Powerful Admin Panels",
+        "description": "Explore the advanced features of Ronza Chat. From the reseller panel to admin permissions management and voice/video chat, learn everything our platform offers."
+      },
+      "pricing": {
+        "title": "Ronza Chat Room Pricing Plans | Monthly & Yearly",
+        "description": "Choose the chat room package that suits you from Ronza. Competitive prices from trial packages to large enterprise plans. Get a 25% discount on annual plans."
+      },
+      "reseller": {
+        "title": "Ronza Chat Reseller Plans | Launch Your Own Chat Network",
+        "description": "Become an authorized reseller and get a private server to manage and sell chat rooms. A complete control panel, dedicated resources, and technical support to start your own chat business."
+      },
+      "support": {
+        "title": "User Guide & Technical Support | Ronza Chat",
+        "description": "A comprehensive guide on how to use the chat room interface and moderation tools in Ronza Chat. Learn how to easily manage members, room settings, and security."
+      },
+      "terms": {
+        "title": "Terms of Use & Privacy Policy | Ronza Chat",
+        "description": "Read the usage policy and copyright for the Ronza4Chat platform. We are committed to providing a safe and respectful environment for all users with full data and privacy protection."
+      }
+    },
+     "featuresPage": {
+      "title": "Platform Features & Capabilities",
+      "subtitle": "A comprehensive overview of the powerful administrative tools that give you complete control over your chat network.",
+      "reseller": {
+        "title": "Reseller Panel",
+        "description": "Integrated tools for resellers to manage their own network of rooms and clients.",
+        "stats": "Private Stats",
+        "statsDesc": "View the number of your active rooms, reserved names, and renewal date.",
+        "roomMgmt": "Manage Your Own Rooms",
+        "roomMgmtDesc": "Create new rooms for your clients, modify their settings, or delete them.",
+        "coloredNames": "Manage Your Client Names",
+        "coloredNamesDesc": "Reserve and customize colored and special names for your network's clients.",
+        "embed": "Embed Code",
+        "embedDesc": "Get HTML code to embed a room invitation card on any external website.",
+        "password": "Panel Security",
+        "passwordDesc": "Set a private password for your control panel to ensure security."
+      },
+      "owner": {
+        "title": "Room Owner Panel",
+        "description": "Precise control over every detail of your private room to effectively manage your community.",
+        "general": "General Settings",
+        "generalDesc": "Change the room name, welcome message, and the icon that appears to everyone.",
+        "members": "Member & Role Management",
+        "membersDesc": "Assign roles (Admin, Special) with custom names, colors, and passwords.",
+        "security": "Security & Logs",
+        "securityDesc": "Review the administrative action log and manage the list of banned users.",
+        "access": "Access Control",
+        "accessDesc": "Make the room public or private, and lock it to prevent new users from joining.",
+        "visitor": "Visitor Controls",
+        "visitorDesc": "Mute voice or text for visitors to maintain order.",
+        "moderation": "Moderation Tools",
+        "moderationDesc": "Send public announcements, reserve names, and filter unwanted words."
+      },
+      "inRoom": {
+        "title": "In-Room Features & Roles",
+        "description": "Powerful tools for communication and interaction between members and moderators inside the rooms.",
+        "moderation": "Moderator Powers",
+        "moderationDesc": "Admins can mute, kick, or ban users from the room to maintain order.",
+        "ranks": "Ranks & Stars",
+        "ranksDesc": "A complete rank system (Visitor, Special, Admin, Superadmin) with unique stars and colors for each role.",
+        "coloredNames": "Colored & Special Names",
+        "coloredNamesDesc": "Members can customize their name color to stand out in the chat.",
+        "voiceChat": "Voice & Video Chat",
+        "voiceChatDesc": "High-quality audio and video using the latest WebRTC technology for a seamless experience.",
+        "textChat": "Interactive Text Chat",
+        "textChatDesc": "Fast text chat with support for emojis, font color, and size customization.",
+        "privateChat": "Secure Private Chat",
+        "privateChatDesc": "Ability to send private messages between members with complete confidentiality."
+      }
+    },
+    "postsPage": {
+      "metaTitle": "Latest Ronza Chat Posts & Updates | Join the Community",
+      "metaDescription": "Follow the latest news, updates, and events in the Ronza Chat community. Share your opinion, like posts, and be part of the ongoing conversation.",
+      "title": "Ronza Journal",
+      "subtitle": "The latest news and updates from the Ronza Chat team",
+      "like": "Like",
+      "comment": "Comment",
+      "commentsTitle": "Comments",
+      "noComments": "No comments yet. Be the first to comment!",
+      "commentPlaceholder": "Write your comment...",
+      "namePlaceholder": "Your name",
+      "error": "Error",
+      "errorNameComment": "Please enter your name and comment.",
+      "errorCaptcha": "Incorrect verification answer.",
+      "promoPhrases": [
+        "Share your opinion, be part of our community",
+        "Interact, comment, and like posts",
+        "Your voice is heard on Ronza Chat",
+        "Discover the latest news and updates first"
+      ],
+      "readMore": "Read More",
+      "published": "Published",
+      "by": "By",
+      "shareTitle": "Share this post",
+      "linkCopied": "Link copied!"
+    },
+    "hero": {
+      "title": "Welcome to Ronza Chat Rooms",
+      "subtitle": "Connect with the world. Discover our public chat rooms.",
+      "journalButton": "Discover the Ronza Journal"
+    },
+    "promoBanner": {
+      "phrases": [
+        "Get a voice room at the lowest prices",
+        "Connect with your friends in high quality",
+        "Create your own community now",
+        "The strongest offers for chat rooms"
+      ],
+      "subtitle": "Take advantage of our exclusive offers and start your community today!",
+      "button": "WhatsApp"
+    },
+    "publicRooms": {
+      "title": "Public Chat Rooms",
+      "everyone": "Everyone",
+      "subtitle": "Join a room to start chatting, or create your own.",
+      "sortBy": "Sort by:",
+      "latest": "Latest",
+      "popular": "Most Popular",
+      "favorite": "Most Favorited",
+      "noRooms": "No public rooms available at the moment.",
+      "joinNow": "Join Now",
+      "categories": {
+        "all": "All",
+        "european": "European Rooms",
+        "american": "American Rooms",
+        "asian": "Asian Rooms"
+      },
+      "featuredRoom": {
+        "phrases": ["Competitions", "Entertainment", "Games", "Dialogue"],
+        "joinNow": "Join Now"
+      }
+    },
+    "footer": {
+      "about": "About Us",
+      "terms": "Terms of Use",
+      "rights": "Ronza Chat Rooms. All rights reserved 2025 ©"
+    },
+    "aboutPage": {
+      "companyTitle": "Developer: Ronza4Chat - The Official Company",
+      "companySubtitle": "We are committed to periodically developing and updating the program to ensure the latest technologies and the best user experience.",
+      "featuresTitle": "Ronza4Chat Features",
+      "ctaTitle": "Get Your Room Now with Ronza4Chat Version 1.0.0",
+      "ctaSubtitle": "And be part of the new generation of voice, text, and video chat applications.",
+      "ctaButton": "Get Your Room",
+      "manager": {
+        "title": "Ronza Team",
+        "name": "Ronza Team",
+        "address": "Haifa",
+        "postalCode": "pipohost@gmail.com"
+      },
+      "features": [
+        { "title": "Integrated Voice Chat", "description": "Communicate with members in high-quality, uninterrupted audio." },
+        { "title": "Interactive Text Chat", "description": "Send text messages with support for emojis, custom colors, and interactive features." },
+        { "title": "Video Chat", "description": "Enjoy group video calls in clear quality with the latest WebRTC technology." },
+        { "title": "Modern Admin Panel", "description": "Complete room management: control members, colors, icons, and permissions." },
+        { "title": "Direct Browser Operation", "description": "Works from any modern browser without the need to download or install software." },
+        { "title": "Flexible Room Capacity", "description": "From 25 members up to 2000 members, or even unlimited numbers depending on the package." },
+        { "title": "Security and Stability", "description": "Powerful servers built on the latest American technologies to provide protection and stable performance." },
+        { "title": "Continuous Updates", "description": "Ronza4Chat is updated periodically to add new features, enhance performance, and improve user experience." }
+      ]
+    },
+    "termsPage": {
+        "mainTitle": "Ronza4Chat - Terms of Use and Copyright Policy",
+        "copyrightTitle": "Copyright",
+        "copyrightText1": "All rights reserved to Ronza4Chat © 2025.",
+        "copyrightText2": "Reselling, copying, or modifying the software or its contents without written permission from the company is prohibited. The Ronza4Chat trademark is protected by intellectual property laws.",
+        "policyTitle": "Room Usage Policy",
+        "policyText": "We strive to make Ronza4Chat rooms a safe, respectful, and professional environment for all members. Therefore, we ask you to adhere to the following:",
+        "allowed": "Allowed",
+        "allowedItems": [
+            "Communicate respectfully - speak politely to all members.",
+            "Freedom of expression - share your thoughts and opinions within the limits of laws and public decency.",
+            "Cooperation - help others and support positive communication.",
+            "Use microphone and video responsibly - make your contributions useful and appropriate."
+        ],
+        "forbidden": "Forbidden",
+        "forbiddenItems": [
+            "Insulting, cursing, or swearing in any form.",
+            "Posting illegal content (racist, inflammatory, pornographic, or against the law).",
+            "Disturbing others with repetition or noise.",
+            "Tampering with the admin panel or attempting to breach the system."
+        ],
+        "securityTitle": "Security and Privacy",
+        "securityText": "Rooms are monitored to ensure compliance with the rules. The company reserves the right to ban or close any room that violates the policies. Data and conversations are protected according to the highest security standards.",
+        "updatesTitle": "Continuous Updates",
+        "updatesText": "Ronza4Chat periodically reviews and updates these policies to ensure a fair and safe experience for everyone."
+    },
+    "pricingPage": {
+        "title": "Our Pricing Plans",
+        "subtitle": "Choose a plan that fits your community's needs and budget. Get started in minutes.",
+        "supportButton": "Contact Support",
+        "salesButton": "Contact Sales",
+        "billingCycle": "Billing Cycle",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "save": "Save 25%",
+        "visitorsCapacity": "Visitors Capacity",
+        "orderButton": "Order via WhatsApp",
+        "businessOwnerTitle": "Are you a business or community owner?",
+        "businessOwnerText": "Launch your own chat network with our powerful reseller plans. Get a dedicated server and control panel to create and manage your own rooms.",
+        "resellerPlansButton": "View Reseller Plans",
+        "coloredNameTitle": "Reserve Your Colored Name",
+        "coloredNameText": "Stand out in every room with a unique, colored, and password-protected username.",
+        "reserveButton": "Reserve via WhatsApp",
+        "directOrder": "Direct Order & Support",
+        "mostPopular": "Most Popular",
+        "yr": "yr",
+        "mo": "mo",
+        "plans": {
+          "Trial": "Trial",
+          "Starter": "Starter",
+          "Community": "Community",
+          "Bronze": "Bronze",
+          "Silver": "Silver",
+          "Gold": "Gold",
+          "Platinum": "Platinum",
+          "Diamond": "Diamond",
+          "Titanium": "Titanium",
+          "Enterprise": "Enterprise",
+          "Ultimate": "Ultimate"
+        },
+        "features": [
+            "Unlimited Admin Colors",
+            "Advanced Control Panel",
+            "Automatic Site Listing",
+            "Industry-leading security",
+            "Mobile-friendly interface"
+        ]
+    },
+    "resellerPage": {
+        "mainTitle": "Purchase a Room Reseller",
+        "mainSubtitle": "Launch your own chat room business with our powerful and secure reseller servers.",
+        "supportButton": "Contact Support",
+        "salesButton": "Contact Sales",
+        "whatIsTitle": "What is a Room Reseller?",
+        "whatIsText": "A room reseller account gives you a powerful private server and an integrated control panel that allows you to create, manage, and sell your own chat rooms. You become the owner with full control over your rooms, members, and settings. It's the perfect solution for communities, businesses, or entrepreneurs who want to build their own chat network.",
+        "panelFeaturesTitle": "Reseller Panel Features:",
+        "panelFeatures": [
+          "Your own private server with dedicated resources.",
+          "Create and manage tens or even thousands of chat rooms.",
+          "Set custom names, capacities, and expiration dates for each room.",
+          "Manage reserved names and administrators across all your rooms.",
+          "Full security control, including banning users from your entire network."
+        ],
+        "choosePlanTitle": "Choose the Right Reseller Plan for You",
+        "choosePlanSubtitle": "All plans include a private control panel, full management privileges, and premium technical support.",
+        "monthly": "Monthly",
+        "yearly": "Annual",
+        "save": "Save 10%",
+        "orderButton": "Order via WhatsApp",
+        "paymentNoteTitle": "Important Note",
+        "paymentNoteText": "After completing the payment, please contact the company's administration via email or WhatsApp with the transaction details to receive your reseller panel.",
+        "contactSupport": "For inquiries, contact us at",
+        "directOrder": "Direct Order & Support",
+        "rooms": "Rooms",
+        "reseller": "Reseller",
+        "mostPopular": "Most Popular",
+        "features": [
+            "Advanced Reseller Panel",
+            "Full Member Management",
+            "Custom Room Settings",
+            "Technical Support 24/7"
+        ],
+        "upToRooms": "Up to"
+    },
+     "downloadPage": {
+        "title": "Install Ronza Chat",
+        "subtitle": "Get a native-app-like experience by installing our app on your device. It's fast, secure, and works offline.",
+        "mobileTitle": "For Mobile (Android, iOS)",
+        "mobileSubtitle": "You can also add Ronza Chat to your home screen for easy access.",
+        "mobileStep1Title": "1. Open in Browser",
+        "mobileStep1Text": "Navigate to our website using Chrome on Android or Safari on iOS.",
+        "mobileStep2Title": "2. Use 'Add to Home Screen'",
+        "mobileStep2Android": "On Android (Chrome): Tap the three-dot menu icon, then select 'Install App' or 'Add to Home Screen'.",
+        "mobileStep2Ios": "On iOS (Safari): Tap the 'Share' icon (a square with an arrow pointing up), then scroll down and select 'Add to Home Screen'.",
+        "mobileStep3Title": "3. Confirm and Launch",
+        "mobileStep3Text": "Confirm the addition, and the Ronza Chat icon will appear on your home screen, just like a regular app.",
+        "showHintButton": "Show Installation Hint",
+        "desktopTitle": "For Desktop (Windows, Mac, Linux)",
+        "desktopSubtitle": "Follow these steps to install on your computer using Chrome, Edge, or other compatible browsers.",
+        "desktopStep1Title": "1. Visit the Site",
+        "desktopStep1Text": "Make sure you are viewing this site in a modern browser like Google Chrome or Microsoft Edge.",
+        "desktopStep2Title": "2. Find the Install Icon",
+        "desktopStep2Text": "In the address bar (at the top of the browser), you should see an icon that looks like a screen with a down arrow.",
+        "desktopStep3Title": "3. Click and Confirm",
+        "desktopStep3Text": "Click the icon, and then click the 'Install' button in the pop-up to confirm. The app will be added to your desktop and/or start menu."
+    },
+    "supportPage": {
+        "mainTitle": "Ronza Chat User Guide",
+        "interfaceTitle": "Chat Room Interface",
+        "adminPanelTitle": "Room Management Panel",
+        "features": [
+            { "id": "support-members", "title": "Members List", "description": "On the side, you'll find a list of all members currently in the room. Each member has a card showing their name, avatar, and special icons for their rank. You can click the settings icon on any user to take actions like private messaging or moderation if you have permissions." },
+            { "id": "support-chat-tools", "title": "Chat & Control Tools", "description": "The main area is for chatting. Type your message in the input box at the bottom. Use the buttons to change text color, add emojis, set your status, toggle your mic/camera, or send the message." },
+            { "id": "support-av", "title": "Audio & Video", "description": "When a user turns on their camera, a video icon will appear on their card. Click it to open a floating, resizable video window. You can also toggle your own mic and camera using the controls at the bottom." },
+            { "id": "support-room-settings", "title": "Room Settings", "description": "As the room owner, you have a private control panel. Here, you can change the room name, welcome message, and upload a new room image. You can also lock/unlock the room and enable/disable private chat for visitors." },
+            { "id": "support-member-management", "title": "Member Management", "description": "Add, edit, or delete registered members in your room. You can assign them specific roles (like admin or special member), a unique color, and a password for exclusive access." },
+            { "id": "support-security", "title": "Security & Moderation", "description": "View online users in real-time and ban them if necessary. The banned users list shows everyone who has been blocked from your room, and you can unban them from here." }
+        ]
+    },
+     "colorPricingPage": {
+        "title": "Cosmetic Rank Pricing",
+        "subtitle": "Choose a rank that makes you stand out in every room. Get a unique color, sparkling stars, and a professional look without any admin privileges.",
+        "orderButton": "Reserve via WhatsApp",
+        "footerNote": "Prices are monthly. These packages are for cosmetic distinction only and do not grant any administrative privileges. Contact us for details on annual packages and discounts.",
+        "tiers": {
+            "registered_member": {
+                "title": "Registered Member",
+                "description": "A basic rank with 4 green stars."
+            },
+            "background_name": {
+                "title": "Name with Background",
+                "description": "A special name with 6 blue stars and an attractive gradient background."
+            },
+            "super_name": {
+                "title": "Super Name",
+                "description": "The highest cosmetic rank with 5 gold stars and an animated background."
+            }
+        }
+    },
+    "room": {
+      "reconnecting": "Connection Lost",
+      "reconnecting_subtitle": "Attempting to reconnect...",
+      "reconnecting_countdown": "Retrying in {countdown} seconds",
+      "mute_room_toast": "Room audio muted.",
+      "unmute_room_toast": "Room audio unmuted.",
+      "mute_mic_by_owner_tooltip": "Voice is muted for visitors",
+      "toggle_mic_tooltip": "Toggle microphone",
+      "toggle_camera_tooltip": "Toggle camera",
+      "raise_hand_tooltip": "Raise hand",
+      "mute_room_tooltip": "Mute/Unmute Room",
+      "mic_muted_by_owner_dropdown": "Voice Muted (Visitors)",
+      "mic_dropdown": "Microphone",
+      "camera_dropdown": "Camera",
+      "raise_hand_dropdown": "Raise Hand",
+      "mute_room_dropdown": "Mute Room",
+      "kick_user_success": "User {user} has been kicked.",
+      "kick_user_fail": "Failed to kick user.",
+      "ban_user_success": "User {user} has been banned.",
+      "ban_user_fail": "Failed to ban user.",
+      "mute_user_success": "User {user} has been muted.",
+      "unmute_user_success": "User {user} has been unmuted.",
+      "mute_user_fail": "Failed to toggle mute.",
+      "private_chat_with": "Private chat with {user}",
+      "pm_placeholder": "Type your message...",
+      "ban_reason_prompt": "Reason for banning {user}:"
+    },
+    "langSwitch": "العربية",
+    "exit": "Exit Room",
+    "members": "Members",
+    "videoHint": "Floating Video Window",
+    "placeholder": "Type your message...",
+    "muted_placeholder": "Text chat is currently muted for visitors",
+    "color": "Color",
+    "fontSize": "Font Size",
+    "emoji": "Emoji",
+    "status": "Set Status",
+    "status_clear": "Clear Status",
+    "status_custom": "✍️ Set a custom status",
+    "status_custom_prompt": "Enter your custom status (max 30 characters):",
+    "font_fixed": "Font size fixed to 18pt.",
+    "status_sleeping": "Sleeping",
+    "status_eating": "Eating",
+    "status_drinking": "Drinking",
+    "status_away": "Away",
+    "status_driving": "Driving",
+    "status_oncall": "On a Call",
+    "status_online": "is now online.",
+    "status_hand_raised": "raised their hand to speak.",
+    "pm": "Private Message",
+    "profile": "Profile",
+    "mute": "Mute Text",
+    "unmute": "Unmute Text",
+    "kick": "Kick",
+    "ban": "Ban",
+    "watchStream": "Watch Stream"
+  }
+}
