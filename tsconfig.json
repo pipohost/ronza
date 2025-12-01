@@ -1,38 +1,29 @@
+
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
-    // 💡 تم إضافة هذا الجزء لحل مشكلة '@/lib/utils'
-    "baseUrl": ".",
     "paths": {
-      "@/lib/*": ["lib/*"],
-      "@/*": ["./*"] // إضافة هذا Alias الشائع لتعيين @/ على جذر المشروع
+      "@/*": ["./src/*"],
+      "firebase-admin": ["./node_modules/firebase-admin"]
     }
-    // نهاية الإضافة
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts"
-  ],
-  "exclude": ["node_modules", "**/*.test.ts", "**/*.test.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "functions/index.js"],
+  "exclude": ["node_modules"]
 }
